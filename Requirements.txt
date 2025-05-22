@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt<4.1.0
+stripe
+httpx
+pydantic[email]
+python-multipart
