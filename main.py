@@ -297,3 +297,5 @@ async def convert_clp_to_usd(amount_clp: float) -> int:
 # Endpoint para verificar que la API esté activa
 async def health():
     return {"status": "ok", "timestamp": datetime.utcnow()}
+
+app = app
