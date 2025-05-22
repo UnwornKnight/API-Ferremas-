@@ -24,4 +24,4 @@ Los endpoints expuestos son los siguientes:
 
 Finalmente, el endpoint /health sirve como verificación rápida del estado del sistema.
 
-El flujo de seguridad está bien definido: los usuarios se autentican, obtienen un token JWT, y lo usan para acceder a rutas protegidas. Se aplican restricciones de rol cuando es necesario.
+El flujo de seguridad funciona de la siguiente forma: los usuarios se autentican, obtienen un token JWT, y lo usan para acceder a rutas protegidas. Se aplican restricciones de rol cuando es necesario.
